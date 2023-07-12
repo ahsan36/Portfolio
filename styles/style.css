@@ -402,16 +402,24 @@ section {
   width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 80%;
+  width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .javascript {
-  width: 40%;
+  width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
+  width: 75%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .hibernate {
+  width: 80%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .jsp {
-  width: 75%;
+  width: 70%;
 }
 
 .stat-title {
