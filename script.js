@@ -44,3 +44,12 @@ function PageTransitions(){
 }
 
 PageTransitions();
+
+//Typing Animation
+
+var typed = new Typed(".typing", {
+    strings:["","Md Ahsan Ansari."],
+    typeSpeed:100,
+    backSpeed:80,
+    loop:true
+})
