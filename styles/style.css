@@ -200,17 +200,21 @@ section {
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
+  overflow: hidden;
 }
 .header-content .left-header .image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: all 0.4s ease-in-out;
+  transition: all ease 1s;
   filter: grayscale(100%);
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
+}
+.header-content .left-header .image:hover img {
+  scale: 1.2;
 }
 .header-content .right-header {
   display: flex;
@@ -410,16 +414,14 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
   width: 75%;
 }
-
 .about-stats .progress-bars .progress-bar .progress-con .progress .hibernate {
-  width: 80%;
+  width: 70%;
 }
-
 .about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .jsp {
-  width: 70%;
+  width: 75%;
 }
 
 .stat-title {
@@ -715,7 +717,6 @@ section {
     margin-left: 0;
     margin-top: 1.5rem;
   }
-
   .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
