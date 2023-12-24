@@ -225,10 +225,10 @@ section {
                 height: 100%;
                 object-fit: cover;
                 transition: all ease 1s;
-                filter: grayscale(100%);
+                filter: saturate(70%);
 
                 &:hover {
-                    filter: grayscale(0);
+                    filter: saturate(110%);
                 }
             }
 
@@ -723,41 +723,6 @@ section {
                     font-size: 1.3rem;
                 }
             }
-        }
-    }
-
-    .right-contact {
-        flex: 3;
-        margin-left: 3rem;
-        .input-control {
-            margin: 1.5rem 0;
-
-            input, textarea {
-                border-radius: 30px;
-                font-weight: inherit;
-                font-size: inherit;
-                font-family: inherit;
-                padding: .8rem 1.1rem;
-                outline: none;
-                border: none;
-                background-color: var(--color-grey-5);
-                width: 100%;
-                color: var(--color-white);
-                resize: none;
-            }
-        }
-
-        .i-c-2 {
-            display: flex;
-
-            :last-child {
-                margin-left: 1.5rem;
-            }
-        }
-
-        .submit-btn {
-            display: flex;
-            justify-content: flex-start;
         }
     }
 }

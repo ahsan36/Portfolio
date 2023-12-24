@@ -208,10 +208,10 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all ease 1s;
-  filter: grayscale(100%);
+  filter: saturate(70%);
 }
 .header-content .left-header .image img:hover {
-  filter: grayscale(0);
+  filter: saturate(110%);
 }
 .header-content .left-header .image:hover img {
   scale: 1.2;
@@ -617,36 +617,6 @@ section {
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
-}
-.contact-content-con .right-contact {
-  flex: 3;
-  margin-left: 3rem;
-}
-.contact-content-con .right-contact .input-control {
-  margin: 1.5rem 0;
-}
-.contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
-  border-radius: 30px;
-  font-weight: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  padding: 0.8rem 1.1rem;
-  outline: none;
-  border: none;
-  background-color: var(--color-grey-5);
-  width: 100%;
-  color: var(--color-white);
-  resize: none;
-}
-.contact-content-con .right-contact .i-c-2 {
-  display: flex;
-}
-.contact-content-con .right-contact .i-c-2 :last-child {
-  margin-left: 1.5rem;
-}
-.contact-content-con .right-contact .submit-btn {
-  display: flex;
-  justify-content: flex-start;
 }
 
 @media screen and (max-width: 600px) {
