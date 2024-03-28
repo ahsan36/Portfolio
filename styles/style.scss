@@ -225,10 +225,10 @@ section {
                 height: 100%;
                 object-fit: cover;
                 transition: all ease 1s;
-                filter: saturate(70%);
+                filter: saturate(90%);
 
                 &:hover {
-                    filter: saturate(110%);
+                    filter: saturate(100%);
                 }
             }
 
